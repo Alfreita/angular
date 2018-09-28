@@ -3,7 +3,7 @@ angular.module('minhasDiretivas', [])
 
         var ddo = {};
 
-        ddo.restrict = "AE";
+        ddo.restrict = "AE"; //Atribute ou Element
         ddo.transclude = true;
 
         ddo.scope = {
