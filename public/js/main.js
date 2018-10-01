@@ -8,10 +8,11 @@ angular.module('alurapic', ['minhasDiretivas', 'ngAnimate', 'ngRoute'])
             controller: 'FotosController'
         });
 
-       // foto no singular!
+        // adicionando a propriedade controller que faltava. 
 
         $routeProvider.when('/fotos/new', {
-            templateUrl: 'partials/foto.html'
+            templateUrl: 'partials/foto.html',
+            controller: 'FotoController'
         });
 
         $routeProvider.otherwise({redirectTo: '/fotos'});
