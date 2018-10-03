@@ -1,4 +1,4 @@
-.painel-animado {
+ .painel-animado {
     -moz-transition:transform 0.8s;
     -webkit-transition:transform 0.8s;
     -ms-transition:transform 0.8s;
@@ -12,4 +12,4 @@
   -ms-transform: scale(0.1);
   -o-transform: scale(0.1);
   transform: scale(0.1);
-}
+} 
